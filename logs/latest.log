@@ -1,0 +1,52 @@
+[20:43:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:43:41] [ServerMain/INFO]: Loaded 1175 recipes
+[20:43:42] [ServerMain/INFO]: Loaded 1276 advancements
+[20:43:42] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[20:43:42] [Server thread/INFO]: Loading properties
+[20:43:42] [Server thread/INFO]: Default game type: SURVIVAL
+[20:43:42] [Server thread/INFO]: Generating keypair
+[20:43:42] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Controlador no válido
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:186) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at aqb$1.run(SourceFile:98) [server-1.20.6.jar:?]
+[20:43:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:43:42] [Server thread/INFO]: Using default channel type
+[20:43:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:43:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:43:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:43:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:43:42] [Server thread/INFO]: Preparing level "world"
+[20:43:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:43:43] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[20:43:43] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[20:43:44] [Server thread/INFO]: Time elapsed: 1025 ms
+[20:43:44] [Server thread/INFO]: Done (1.451s)! For help, type "help"
+[20:43:57] [Server thread/INFO]: NoviceRatchet[/192.168.1.1:50082] logged in with entity id 59 at (-1060.0792638662222, 66.0, 5026.432002613679)
+[20:43:57] [Server thread/INFO]: NoviceRatchet joined the game
+[20:50:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2255ms or 45 ticks behind
+[20:51:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=-142, y=89, z=617} iz{x=-130, y=90, z=584}
+[20:59:06] [Server thread/INFO]: NoviceRatchet lost connection: Disconnected
+[20:59:06] [Server thread/INFO]: NoviceRatchet left the game
+[20:59:40] [Server thread/INFO]: Stopping server
+[20:59:40] [Server thread/INFO]: Saving players
+[20:59:40] [Server thread/INFO]: Saving worlds
+[20:59:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:59:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:59:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:59:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:59:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:59:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:59:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
