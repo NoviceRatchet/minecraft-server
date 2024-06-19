@@ -22,6 +22,7 @@
       "minecraft:birch_forest": "2024-06-09 21:01:15 -0400",
       "minecraft:windswept_hills": "2024-06-10 00:18:32 -0400",
       "minecraft:snowy_beach": "2024-06-10 00:27:42 -0400",
+      "minecraft:bamboo_jungle": "2024-06-18 23:00:01 -0400",
       "minecraft:flower_forest": "2024-06-09 22:49:34 -0400",
       "minecraft:beach": "2024-06-09 21:08:57 -0400",
       "minecraft:dark_forest": "2024-06-10 00:02:16 -0400",
@@ -111,6 +112,7 @@
       "bread": "2024-06-09 22:56:27 -0400",
       "cooked_chicken": "2024-06-09 22:03:10 -0400",
       "potato": "2024-06-09 22:09:07 -0400",
+      "sweet_berries": "2024-06-18 23:35:31 -0400",
       "cooked_beef": "2024-06-09 21:07:07 -0400",
       "baked_potato": "2024-06-13 00:50:03 -0400"
     },
@@ -1876,6 +1878,90 @@
   "minecraft:recipes/decorations/cherry_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2024-06-15 00:20:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2024-06-18 23:20:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2024-06-18 23:20:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-06-18 23:18:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2024-06-18 23:18:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2024-06-18 23:18:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2024-06-18 23:18:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-06-18 23:18:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-06-18 23:25:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2024-06-18 23:18:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-06-18 23:25:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-06-18 23:25:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2024-06-18 23:18:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2024-06-18 23:18:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-06-18 23:18:03 -0400"
     },
     "done": true
   },
