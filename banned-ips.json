@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "ip": "186.79.200.2",
+    "created": "2024-06-20 21:19:09 -0400",
+    "source": "NoviceRatchet",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "ip": "179.60.72.218",
+    "created": "2024-06-20 21:23:41 -0400",
+    "source": "NoviceRatchet",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
