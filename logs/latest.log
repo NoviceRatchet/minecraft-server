@@ -1,5 +1,6 @@
-[14:23:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:23:21] [ServerMain/ERROR]: Failed to start the minecraft server
+[21:25:46] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:25:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:25:50] [ServerMain/ERROR]: Failed to start the minecraft server
 java.io.IOException: El proceso no tiene acceso al archivo porque otro proceso tiene bloqueada una parte del archivo
 	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:75) ~[?:?]
@@ -13,3 +14,37 @@ java.io.IOException: El proceso no tiene acceso al archivo porque otro proceso t
 	at net.minecraft.server.Main.main(SourceFile:137) ~[server-1.20.6.jar:?]
 	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+treamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:186) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at aqb$1.run(SourceFile:98) [server-1.20.6.jar:?]
+[21:25:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:25:48] [Server thread/INFO]: Using default channel type
+[21:25:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:25:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:25:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:25:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:25:48] [Server thread/INFO]: Preparing level "world"
+[21:25:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:25:49] [Worker-Main-23/INFO]: Preparing spawn area: 0%
+[21:25:49] [Worker-Main-23/INFO]: Preparing spawn area: 0%
+[21:25:49] [Worker-Main-23/INFO]: Preparing spawn area: 0%
+[21:25:50] [Server thread/INFO]: Time elapsed: 1249 ms
+[21:25:50] [Server thread/INFO]: Done (1.721s)! For help, type "help"
+[21:29:52] [Server thread/INFO]: Chily__Willy[/190.45.217.111:53635] logged in with entity id 14 at (969.6767302318931, 86.0, 315.0154773046381)
+[21:29:52] [Server thread/INFO]: Chily__Willy joined the game
+[22:01:49] [Server thread/INFO]: Chily__Willy lost connection: Disconnected
+[22:01:49] [Server thread/INFO]: Chily__Willy left the game
+[22:37:13] [Server thread/INFO]: Stopping server
+[22:37:13] [Server thread/INFO]: Saving players
+[22:37:13] [Server thread/INFO]: Saving worlds
+[22:37:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:37:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:37:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:37:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:37:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:37:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:37:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
