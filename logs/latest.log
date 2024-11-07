@@ -1,27 +1,5 @@
 [00:06:59] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
 [00:06:59] [ServerMain/ERROR]: Failed to start the minecraft server
-java.io.IOException: El proceso no tiene acceso al archivo porque otro proceso tiene bloqueada una parte del archivo
-	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
-	at java.base/sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:75) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:81) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
-	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:303) ~[?:?]
-	at aye.a(SourceFile:37) ~[server-1.20.6.jar:?]
-	at epy$c.<init>(SourceFile:374) ~[server-1.20.6.jar:?]
-	at epy.d(SourceFile:353) ~[server-1.20.6.jar:?]
-	at net.minecraft.server.Main.main(SourceFile:137) ~[server-1.20.6.jar:?]
-	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
-reamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
-	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:186) ~[?:?]
-	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
-	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
-	at aqb$1.run(SourceFile:98) [server-1.20.6.jar:?]
 [00:06:58] [Server thread/INFO]: Starting Minecraft server on *:25565
 [00:06:58] [Server thread/INFO]: Using default channel type
 [00:06:58] [Server thread/INFO]: Preparing level "world"
@@ -31,69 +9,6 @@ reamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
 [00:07:00] [Worker-Main-4/INFO]: Preparing spawn area: 0%
 [00:07:00] [Server thread/INFO]: Time elapsed: 1355 ms
 [00:07:00] [Server thread/INFO]: Done (1.859s)! For help, type "help"
-[00:11:30] [User Authenticator #1/INFO]: UUID of player SmallBang is 4a071917-997f-4fa3-bfb5-1dde97f27353
-[00:11:32] [Server thread/INFO]: SmallBang[/179.60.70.200:55246] logged in with entity id 14 at (2219.5, 124.0, -2435.5)
-[00:11:32] [Server thread/INFO]: SmallBang joined the game
-[00:11:55] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2216, y=122, z=-2439}
-[00:11:55] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2216, y=122, z=-2439}
-[00:11:55] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2216, y=122, z=-2439}
-[00:11:55] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2216, y=122, z=-2439}
-[00:11:55] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2216, y=122, z=-2439}
-[00:13:19] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=2239, y=135, z=-2440} iz{x=2199, y=102, z=-2427}
-[00:13:23] [User Authenticator #2/INFO]: UUID of player NoviceRatchet is 6abec81d-7992-45cb-bfd3-539ead6c79e3
-[00:13:24] [Server thread/INFO]: NoviceRatchet[/192.168.1.1:62409] logged in with entity id 571 at (2218.5, 125.0, -2430.5)
-[00:13:24] [Server thread/INFO]: NoviceRatchet joined the game
-[00:13:26] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=2239, y=135, z=-2440} iz{x=2199, y=102, z=-2427}
-[00:13:30] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2217, y=124, z=-2432}
-[00:13:30] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2217, y=124, z=-2432}
-[00:13:30] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2217, y=124, z=-2432}
-[00:13:30] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2217, y=124, z=-2432}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=125, z=-2432}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=125, z=-2432}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:32] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2433}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2433}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2433}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2432}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2431}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2431}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2431}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2431}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2220, y=126, z=-2432}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2220, y=126, z=-2432}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2220, y=126, z=-2432}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2220, y=126, z=-2432}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2220, y=125, z=-2433}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2432}
-[00:13:44] [Server thread/INFO]: <NoviceRatchet> se me bugeo
-[00:13:46] [Server thread/INFO]: <NoviceRatchet> los datos
-[00:13:51] [Server thread/INFO]: <NoviceRatchet> no tengo nada
-[00:13:54] [Server thread/INFO]: <NoviceRatchet> :c
-[00:13:58] [Server thread/INFO]: NoviceRatchet lost connection: Disconnected
-[00:13:58] [Server thread/INFO]: NoviceRatchet left the game
-[00:15:33] [Server thread/INFO]: Stopping server
 [00:15:33] [Server thread/INFO]: Saving players
 [00:15:33] [Server thread/INFO]: Saving worlds
 [00:15:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
@@ -103,3 +18,35 @@ reamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
 [00:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
 [00:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
 [00:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:06:52] [Server thread/INFO]: Destrik67 lost connection: Disconnected
+[00:06:52] [Server thread/INFO]: Destrik67 left the game
+[00:09:23] [Server thread/INFO]: LilSailord lost connection: Disconnected
+[00:09:23] [Server thread/INFO]: LilSailord left the game
+[00:09:25] [Server thread/INFO]: LilSailord[/200.104.118.224:57156] logged in with entity id 22871 at (1010.2818723207841, 98.5, 293.31806453971217)
+[00:09:25] [Server thread/INFO]: LilSailord joined the game
+[00:15:20] [Server thread/INFO]: Destrik67[/190.45.217.111:52855] logged in with entity id 23966 at (993.2799547546681, 89.0, 297.6177243307967)
+[00:15:20] [Server thread/INFO]: Destrik67 joined the game
+[00:22:06] [Server thread/INFO]: Chily__Willy has made the advancement [Crafting a New Look]
+[00:28:47] [Server thread/INFO]: LilSailord has made the advancement [Enchanter]
+[00:30:21] [Server thread/INFO]: LilSailord lost connection: Disconnected
+[00:30:21] [Server thread/INFO]: LilSailord left the game
+[00:31:08] [Server thread/INFO]: Destrik67 lost connection: Disconnected
+[00:31:08] [Server thread/INFO]: Destrik67 left the game
+[00:31:14] [Server thread/INFO]: LilSailord[/200.104.118.224:57629] logged in with entity id 27000 at (996.1456969223071, 89.5625, 294.54022181352354)
+[00:31:14] [Server thread/INFO]: LilSailord joined the game
+[00:42:54] [Server thread/INFO]: LilSailord lost connection: Disconnected
+[00:42:54] [Server thread/INFO]: LilSailord left the game
+[00:43:08] [Server thread/INFO]: LilSailord[/200.104.118.224:57947] logged in with entity id 29215 at (970.2678130769028, 63.0, 380.26054657256043)
+[00:43:08] [Server thread/INFO]: LilSailord joined the game
+[00:47:01] [Server thread/INFO]: LilSailord has made the advancement [Crafting a New Look]
+[00:47:33] [Server thread/WARN]: LilSailord was kicked for floating too long!
+[00:47:33] [Server thread/INFO]: LilSailord lost connection: Flying is not enabled on this server
+[00:47:33] [Server thread/INFO]: LilSailord left the game
+[00:47:33] [Server thread/WARN]: handleDisconnection() called twice
+[00:48:12] [Server thread/INFO]: LilSailord[/200.104.118.224:58133] logged in with entity id 29983 at (992.6294947410366, 90.00133597911214, 296.11499710514494)
+[00:48:12] [Server thread/INFO]: LilSailord joined the game
+[00:51:35] [Server thread/INFO]: Chily__Willy has completed the challenge [Cover Me in Debris]
+[01:09:57] [Server thread/INFO]: Chily__Willy lost connection: Disconnected
+[01:09:57] [Server thread/INFO]: Chily__Willy left the game
+[01:10:02] [Server thread/INFO]: LilSailord lost connection: Disconnected
+[01:10:02] [Server thread/INFO]: LilSailord left the game
