@@ -1,10 +1,105 @@
-[00:04:28] [Server thread/INFO]: Stopping server
-[00:04:28] [Server thread/INFO]: Saving players
-[00:04:28] [Server thread/INFO]: Saving worlds
-[00:04:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:04:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:04:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:04:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:04:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:04:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:04:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:06:59] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:06:59] [ServerMain/ERROR]: Failed to start the minecraft server
+java.io.IOException: El proceso no tiene acceso al archivo porque otro proceso tiene bloqueada una parte del archivo
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:75) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:81) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:303) ~[?:?]
+	at aye.a(SourceFile:37) ~[server-1.20.6.jar:?]
+	at epy$c.<init>(SourceFile:374) ~[server-1.20.6.jar:?]
+	at epy.d(SourceFile:353) ~[server-1.20.6.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:137) ~[server-1.20.6.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+reamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:186) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at aqb$1.run(SourceFile:98) [server-1.20.6.jar:?]
+[00:06:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:06:58] [Server thread/INFO]: Using default channel type
+[00:06:58] [Server thread/INFO]: Preparing level "world"
+[00:06:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:07:00] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:07:00] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:07:00] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:07:00] [Server thread/INFO]: Time elapsed: 1355 ms
+[00:07:00] [Server thread/INFO]: Done (1.859s)! For help, type "help"
+[00:11:30] [User Authenticator #1/INFO]: UUID of player SmallBang is 4a071917-997f-4fa3-bfb5-1dde97f27353
+[00:11:32] [Server thread/INFO]: SmallBang[/179.60.70.200:55246] logged in with entity id 14 at (2219.5, 124.0, -2435.5)
+[00:11:32] [Server thread/INFO]: SmallBang joined the game
+[00:11:55] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2216, y=122, z=-2439}
+[00:11:55] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2216, y=122, z=-2439}
+[00:11:55] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2216, y=122, z=-2439}
+[00:11:55] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2216, y=122, z=-2439}
+[00:11:55] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2216, y=122, z=-2439}
+[00:13:19] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=2239, y=135, z=-2440} iz{x=2199, y=102, z=-2427}
+[00:13:23] [User Authenticator #2/INFO]: UUID of player NoviceRatchet is 6abec81d-7992-45cb-bfd3-539ead6c79e3
+[00:13:24] [Server thread/INFO]: NoviceRatchet[/192.168.1.1:62409] logged in with entity id 571 at (2218.5, 125.0, -2430.5)
+[00:13:24] [Server thread/INFO]: NoviceRatchet joined the game
+[00:13:26] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=2239, y=135, z=-2440} iz{x=2199, y=102, z=-2427}
+[00:13:30] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2217, y=124, z=-2432}
+[00:13:30] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2217, y=124, z=-2432}
+[00:13:30] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2217, y=124, z=-2432}
+[00:13:30] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2217, y=124, z=-2432}
+[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=125, z=-2432}
+[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=125, z=-2432}
+[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:32] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
+[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2433}
+[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2433}
+[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2433}
+[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2432}
+[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2431}
+[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2431}
+[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2431}
+[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2431}
+[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2220, y=126, z=-2432}
+[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2220, y=126, z=-2432}
+[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2220, y=126, z=-2432}
+[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2220, y=126, z=-2432}
+[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2220, y=125, z=-2433}
+[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2432}
+[00:13:44] [Server thread/INFO]: <NoviceRatchet> se me bugeo
+[00:13:46] [Server thread/INFO]: <NoviceRatchet> los datos
+[00:13:51] [Server thread/INFO]: <NoviceRatchet> no tengo nada
+[00:13:54] [Server thread/INFO]: <NoviceRatchet> :c
+[00:13:58] [Server thread/INFO]: NoviceRatchet lost connection: Disconnected
+[00:13:58] [Server thread/INFO]: NoviceRatchet left the game
+[00:15:33] [Server thread/INFO]: Stopping server
+[00:15:33] [Server thread/INFO]: Saving players
+[00:15:33] [Server thread/INFO]: Saving worlds
+[00:15:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:15:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:15:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
