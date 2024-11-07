@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [00:06:59] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
 [00:06:59] [ServerMain/ERROR]: Failed to start the minecraft server
 java.io.IOException: El proceso no tiene acceso al archivo porque otro proceso tiene bloqueada una parte del archivo
@@ -125,3 +126,37 @@ reamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
 [21:03:20] [Server thread/INFO]: Time elapsed: 1011 ms
 [21:03:20] [Server thread/INFO]: Done (1.410s)! For help, type "help"
 >>>>>>> parent of d1eadeb (Revert "1.6")
+=======
+[00:06:52] [Server thread/INFO]: Destrik67 lost connection: Disconnected
+[00:06:52] [Server thread/INFO]: Destrik67 left the game
+[00:09:23] [Server thread/INFO]: LilSailord lost connection: Disconnected
+[00:09:23] [Server thread/INFO]: LilSailord left the game
+[00:09:25] [Server thread/INFO]: LilSailord[/200.104.118.224:57156] logged in with entity id 22871 at (1010.2818723207841, 98.5, 293.31806453971217)
+[00:09:25] [Server thread/INFO]: LilSailord joined the game
+[00:15:20] [Server thread/INFO]: Destrik67[/190.45.217.111:52855] logged in with entity id 23966 at (993.2799547546681, 89.0, 297.6177243307967)
+[00:15:20] [Server thread/INFO]: Destrik67 joined the game
+[00:22:06] [Server thread/INFO]: Chily__Willy has made the advancement [Crafting a New Look]
+[00:28:47] [Server thread/INFO]: LilSailord has made the advancement [Enchanter]
+[00:30:21] [Server thread/INFO]: LilSailord lost connection: Disconnected
+[00:30:21] [Server thread/INFO]: LilSailord left the game
+[00:31:08] [Server thread/INFO]: Destrik67 lost connection: Disconnected
+[00:31:08] [Server thread/INFO]: Destrik67 left the game
+[00:31:14] [Server thread/INFO]: LilSailord[/200.104.118.224:57629] logged in with entity id 27000 at (996.1456969223071, 89.5625, 294.54022181352354)
+[00:31:14] [Server thread/INFO]: LilSailord joined the game
+[00:42:54] [Server thread/INFO]: LilSailord lost connection: Disconnected
+[00:42:54] [Server thread/INFO]: LilSailord left the game
+[00:43:08] [Server thread/INFO]: LilSailord[/200.104.118.224:57947] logged in with entity id 29215 at (970.2678130769028, 63.0, 380.26054657256043)
+[00:43:08] [Server thread/INFO]: LilSailord joined the game
+[00:47:01] [Server thread/INFO]: LilSailord has made the advancement [Crafting a New Look]
+[00:47:33] [Server thread/WARN]: LilSailord was kicked for floating too long!
+[00:47:33] [Server thread/INFO]: LilSailord lost connection: Flying is not enabled on this server
+[00:47:33] [Server thread/INFO]: LilSailord left the game
+[00:47:33] [Server thread/WARN]: handleDisconnection() called twice
+[00:48:12] [Server thread/INFO]: LilSailord[/200.104.118.224:58133] logged in with entity id 29983 at (992.6294947410366, 90.00133597911214, 296.11499710514494)
+[00:48:12] [Server thread/INFO]: LilSailord joined the game
+[00:51:35] [Server thread/INFO]: Chily__Willy has completed the challenge [Cover Me in Debris]
+[01:09:57] [Server thread/INFO]: Chily__Willy lost connection: Disconnected
+[01:09:57] [Server thread/INFO]: Chily__Willy left the game
+[01:10:02] [Server thread/INFO]: LilSailord lost connection: Disconnected
+[01:10:02] [Server thread/INFO]: LilSailord left the game
+>>>>>>> parent of 7718994 (1.6)
