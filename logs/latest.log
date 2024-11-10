@@ -1,85 +1,3 @@
-[00:06:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:06:58] [Server thread/INFO]: Using default channel type
-[00:06:58] [Server thread/INFO]: Preparing level "world"
-[00:06:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:07:00] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[00:07:00] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[00:07:00] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[00:07:00] [Server thread/INFO]: Time elapsed: 1355 ms
-[00:07:00] [Server thread/INFO]: Done (1.859s)! For help, type "help"
-[00:11:30] [User Authenticator #1/INFO]: UUID of player SmallBang is 4a071917-997f-4fa3-bfb5-1dde97f27353
-[00:11:32] [Server thread/INFO]: SmallBang[/179.60.70.200:55246] logged in with entity id 14 at (2219.5, 124.0, -2435.5)
-[00:11:32] [Server thread/INFO]: SmallBang joined the game
-[00:11:55] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2216, y=122, z=-2439}
-[00:11:55] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2216, y=122, z=-2439}
-[00:11:55] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2216, y=122, z=-2439}
-[00:11:55] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2216, y=122, z=-2439}
-[00:11:55] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2216, y=122, z=-2439}
-[00:13:19] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=2239, y=135, z=-2440} iz{x=2199, y=102, z=-2427}
-[00:13:23] [User Authenticator #2/INFO]: UUID of player NoviceRatchet is 6abec81d-7992-45cb-bfd3-539ead6c79e3
-[00:13:24] [Server thread/INFO]: NoviceRatchet[/192.168.1.1:62409] logged in with entity id 571 at (2218.5, 125.0, -2430.5)
-[00:13:24] [Server thread/INFO]: NoviceRatchet joined the game
-[00:13:26] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=2239, y=135, z=-2440} iz{x=2199, y=102, z=-2427}
-[00:13:30] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2217, y=124, z=-2432}
-[00:13:30] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2217, y=124, z=-2432}
-[00:13:30] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2217, y=124, z=-2432}
-[00:13:30] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2217, y=124, z=-2432}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=125, z=-2432}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=125, z=-2432}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:31] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:32] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2218, y=124, z=-2433}
-[00:13:33] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2433}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2433}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2433}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2432}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2431}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2431}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2431}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2431}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2220, y=126, z=-2432}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2220, y=126, z=-2432}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2220, y=126, z=-2432}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2220, y=126, z=-2432}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2220, y=125, z=-2433}
-[00:13:34] [Server thread/WARN]: Mismatch in destroy block pos: iz{x=0, y=0, z=0} iz{x=2219, y=125, z=-2432}
-[00:13:44] [Server thread/INFO]: <NoviceRatchet> se me bugeo
-[00:13:46] [Server thread/INFO]: <NoviceRatchet> los datos
-[00:13:51] [Server thread/INFO]: <NoviceRatchet> no tengo nada
-[00:13:54] [Server thread/INFO]: <NoviceRatchet> :c
-[00:13:58] [Server thread/INFO]: NoviceRatchet lost connection: Disconnected
-[00:13:58] [Server thread/INFO]: NoviceRatchet left the game
-[00:15:33] [Server thread/INFO]: Stopping server
-[00:15:33] [Server thread/INFO]: Saving players
-[00:15:33] [Server thread/INFO]: Saving worlds
-[00:15:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:15:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:15:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:15:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-=======
 [21:03:17] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
 [21:03:18] [ServerMain/INFO]: Loaded 1175 recipes
 [21:03:18] [ServerMain/INFO]: Loaded 1276 advancements
@@ -99,6 +17,7 @@
 [21:03:19] [Worker-Main-2/INFO]: Preparing spawn area: 0%
 [21:03:20] [Server thread/INFO]: Time elapsed: 1011 ms
 [21:03:20] [Server thread/INFO]: Done (1.410s)! For help, type "help"
+=======
 [00:06:52] [Server thread/INFO]: Destrik67 lost connection: Disconnected
 [00:06:52] [Server thread/INFO]: Destrik67 left the game
 [00:09:23] [Server thread/INFO]: LilSailord lost connection: Disconnected
